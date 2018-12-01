@@ -63,7 +63,7 @@ public class HeroBase : MonoBehaviour {
 				input = i;
 			}
 		}
-		Debug.Log(input);
+		
 		GetComponent<Renderer>().material = heroMaterial;
 
 		camera = firstPersonCam;
@@ -77,7 +77,7 @@ public class HeroBase : MonoBehaviour {
 
 		if(Application.isEditor && Input.GetKeyDown(KeyCode.Escape))
 		{
-			Debug.Break();
+		//	Debug.Break();
 		}
 	}
 
